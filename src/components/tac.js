@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const abbrs = [
-    "Take a Chance",
+    "Taking A Chance",
     "Transportation Association of Canada",
-    "Tactical Communications",
     "Teen Advisory Council",
     "Toxic Air Contaminant",
     "Thermostatic Air Cleaner",
@@ -11,7 +10,10 @@ const abbrs = [
     "Terminal Area Chart",
     "Threat Assessment Chart",
     "Third Amended Complaint ",
-    "Totally Awesome Computers"
+    "Totally Awesome Computers",
+    "Terrific Abbreviation Cycling",
+    "Terry's Awesome triCeps",
+    "Tobias At the Circus"
 ];
 
 
@@ -21,9 +23,9 @@ export const TAC = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setWord(abbrs[Math.floor(Math.random()*abbrs.length)]);
-        }, 5000);
+        }, 7000);
         return () => clearInterval(interval);
     });
 
-return <span className={"tac"} key={word}>{word}</span>
+    return <span className={"tac"} key={word}>{word}</span>
 }
