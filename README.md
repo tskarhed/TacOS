@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-    <img alt="TacOS" src="./src/images/tacos.svg" width="60" />
+    <img alt="TacOS" src="./src/images/tacos.svg" width="120" />
 </p>
 <h1 align="center">
   TacOS - an operating system with taste
