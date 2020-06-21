@@ -4,16 +4,16 @@ const abbrs = [
     "Taking A Chance",
     "Transportation Association of Canada",
     "Teen Advisory Council",
-    "Toxic Air Contaminant",
+    "Toxic Air Contaminants",
     "Thermostatic Air Cleaner",
     "Talking about Christianity",
     "Terminal Area Chart",
     "Threat Assessment Chart",
-    "Third Amended Complaint ",
     "Totally Awesome Computers",
     "Terrific Abbreviation Cycling",
     "Terry's Awesome triCeps",
-    "Tobias At the Circus"
+    "Tobias At the Circus",
+    "TACtical broomsticks"
 ];
 
 
@@ -27,5 +27,5 @@ export const TAC = () => {
         return () => clearInterval(interval);
     });
 
-    return <span className={"tac"} key={word}>{word}</span>
+    return <span alt="Abbreviation for t, a, c" className={"tac"} key={word}>{word}</span>
 }
