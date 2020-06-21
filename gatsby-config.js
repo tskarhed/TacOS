@@ -24,7 +24,7 @@ module.exports = {
         background_color: `white`,
         theme_color: `black`,
         display: `minimal-ui`,
-        icon: `/tacos.svg`, // This path is relative to the root of the site.
+        icon: `src/images/tacos.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

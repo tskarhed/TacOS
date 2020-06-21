@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../images/tacos.svg";
+
 
 const Header = ({ siteTitle }) => (
   <header
@@ -29,7 +31,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img style={{ marginBottom: 0, verticalAlign: `bottom`, height: `8rem`}} alt="Definitely not an Apple logo but with a nacho instead" title="Definitely not an Apple logo but with a nacho instead" src="tacos.svg" />
+          <img style={{ marginBottom: 0, verticalAlign: `bottom`, height: `8rem`}} alt="Definitely not an Apple logo but with a nacho instead" title="Definitely not an Apple logo but with a nacho instead" src={Logo} />
           {siteTitle}
         </Link>
       </h1>
