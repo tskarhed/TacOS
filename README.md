@@ -3,7 +3,7 @@
     <img alt="TacOS" src="./src/images/tacos.svg" width="60" />
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  TacOS - an operating system with taste
 </h1>
 
 > This is definitely a very serious endeavour
