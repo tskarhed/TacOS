@@ -24,7 +24,7 @@ const IndexPage = () => (
     <p>You might remember Microsoft's legendary Clippy, the paperclip. Clippy would be with you through the sunny days and on the stormy oceans - always there for you to provide support. In times when technology can be confuing we think this is needed.</p>
     <h3>Introducing Tac</h3>
     <img alt="Tac the nacho looking slightly worried" src={TacTheNacho} style={{float: 'left', height: '200px', margin: '20px'}}/>
-    <p>We have come a long way since then. We want to honor Clippy's heritage. Therefore we introduce to you Clippy's decendant Tac!</p>
+    <p>We have come a long way since then. We want to honor Clippy's heritage. Therefore we introduce to you Clippy's descendant Tac!</p>
     <p>Tac is a nacho. Only because nachos are delicious, no other reason. We have yet to trace back Tac's family tree to Clippy, but the similarities are striking. We are currently investing a lot in genetic research to figure out how a paperclip could end up producing a nacho.</p>
     </section>
     <section>
